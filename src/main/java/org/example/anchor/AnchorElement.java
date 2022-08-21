@@ -15,9 +15,13 @@ public class AnchorElement {
         anchorElement.findAllAnchorTagFromURL(url);
     }
     public void findAllAnchorTagFromURL(String url) {
+        // To make this work in your machine, please download the chromedriver
+        // from https://chromedriver.chromium.org/getting-started
+        // and change the path in chromePath variable.
         String chromePath = "/Users/Rii/Desktop/chromedriver";
         System.setProperty("webdriver.chrome.driver", chromePath);
-       // System.setProperty("webdriver.chrome.whitelistedIps", "");
+        // System.setProperty("webdriver.chrome.whitelistedIps", "");
+        
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 
