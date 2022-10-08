@@ -23,11 +23,6 @@ src
    |   |   |   |-- example
    |   |   |   |   |-- anagram
    |   |   |   |   |   |-- Anagram.java
-   |   |   |   |   |-- anchor
-   |   |   |   |   |   |-- AnchorElement.java
-   |   |   |   |   |   
-   |   |   |   |   |   
-   |   |   |   |   |   
    |-- test
    |   |-- java
    |   |   |-- org
